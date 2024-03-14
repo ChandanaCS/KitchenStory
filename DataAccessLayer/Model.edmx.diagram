@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14e1fcbff9d941c6b455d4e7fde02ce4" Name="Diagram1">
+        <EntityTypeShape EntityType="KitchenStoryDBModel.Category" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KitchenStoryDBModel.FoodItem" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KitchenStoryDBModel.OrderItem" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KitchenStoryDBModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KitchenStoryDBModel.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="KitchenStoryDBModel.FK__FoodItems__Categ__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="KitchenStoryDBModel.FK__OrderItem__FoodI__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="KitchenStoryDBModel.FK__OrderItem__Order__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="KitchenStoryDBModel.FK__Orders__UserID__5CD6CB2B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
